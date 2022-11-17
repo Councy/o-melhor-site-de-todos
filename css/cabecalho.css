@@ -1,0 +1,67 @@
+.cabecalho {
+    background-color: rgb(71, 71, 71);
+    color: #fff;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
+}
+.cabecalho_logo {
+    padding: 1.5em 0;
+    width: 14.5em;
+}
+.cabecalho_menu {
+    background-color: transparent;
+}
+.cabecalho_item-menu {
+    display: inline-block;
+}
+.cabecalho_item-menu a {
+    display: inline-block;
+    padding: 1.86em 1.42em;
+}
+@media (min-width: 640px) {
+    .cabecalho {
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .cabecalho_menu{
+        background-color: transparent;
+    }
+    .cabecalho_logo{
+        padding: 2.5em 0;
+    }
+}
+.cabecalho_menu{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media (min-width: 770px) {
+    .cabecalho_item-menu{
+        margin-left: 1.42em;
+        border-radius: 6px;
+        background-color: black;
+    }
+    .cabecalho_item-menu-contrate a{
+        padding: 1.83em 3.5em;
+    }
+}
+@media (min-width: 1066px) {
+    .cabecalho{
+        padding-left: calc((100% - 960px)/2);
+        padding-right: calc((100% - 960px)/2);
+    }
+}
+.rodape {
+    padding: 1.75em 0;
+    font-size: 1.1rem;
+}
+.rodape_logo{
+    width: 50px;
+    height: 50px;
+}
